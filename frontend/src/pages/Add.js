@@ -21,7 +21,7 @@ function Add({ addUser }) {
       surname,
     };
     addUser(newUser);
-    navigate('/');
+    navigate(0);
   };
 
   return (
