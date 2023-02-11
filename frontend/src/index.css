@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.form,
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.form-group input:focus {
+  outline: none !important;
+  border: 1px solid #a020f0;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+  margin: 0 0 5px 3px;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+.table {
+  border: 1px solid;
+}
+
+caption {
+  /* font-size: 1.2rem; */
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn-small {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  appearance: button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.btn svg {
+  margin-right: 8px;
+}
+
+.btn-reverse {
+  background: #fff;
+  color: #000;
+}
+
+.btn-block {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.btn:hover,
+.btn-small:hover {
+  transform: scale(0.98);
+}
+
+.header {
+  width: 80rem;
+
+  padding: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 60px;
+  font-size: 1rem;
+}
+
+.text__container {
+  text-align: start;
+  width: 50rem;
+  font-style: italic;
+  color: #a020f0;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.details {
+  margin-right: 6rem;
+}
+
+.details-header {
+  margin-right: 2.5rem;
+}
+
+.details-container {
+  margin-right: 6rem;
+  margin-top: 2rem;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.birthdate {
+  display: flex;
+  gap: 2rem;
+}
+
+.name {
+  margin-left: 6rem;
+}
+.email {
+  margin-left: 11.4rem;
+}
+
+.city {
+  margin-left: 6rem;
+}
+
+.birthdate {
+  margin-left: 9.2rem;
+}
+
+.price {
+  margin-left: 9.6rem;
+}
+
+.insurance {
+  margin-top: 2rem;
+}
+
+.edit,
+.delete {
+  margin-top: 1rem;
+}
+
+.delete {
+  margin-right: 36rem;
+}
+
+.edit-delete {
+  display: flex;
+
+  gap: 1rem;
+
+  justify-content: center;
+  margin-right: 12rem;
+}
+
+table {
+  width: 50rem;
+}
+.col {
+  width: 20rem;
+  height: 3rem;
+}
+
+.table-small {
+  width: 40rem;
+}
+
+.bold {
+  font-weight: 800;
+  background-color: #fae6fa;
+}
+
+thead {
+  background-color: #fae6fa;
+}
