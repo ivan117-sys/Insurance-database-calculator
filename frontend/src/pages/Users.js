@@ -12,7 +12,9 @@ function Users({ users }) {
           <td>{user.birthDates} </td>
           <td>
             <Link to={`/customer/${user._id}`}>
-              <button className="btn-small reverse btn-reverse">Details</button>
+              <button className="btn-small reverse btn-reverse">
+                Get price
+              </button>
             </Link>
           </td>
         </tr>
